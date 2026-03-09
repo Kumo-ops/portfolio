@@ -78,7 +78,7 @@ submitBtn.addEventListener('click', () => {
         alert('Please enter a message.');
         return;
     }
-fetch('http://127.0.0.1:5000/send', {
+fetch('https://portfolio-fn2g.onrender.com/send', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, email, message })
