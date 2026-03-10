@@ -78,7 +78,7 @@ submitBtn.addEventListener('click', () => {
         alert('Please enter a message.');
         return;
     }
-fetch('http://127.0.0.1:5000/send', {
+fetch('https://portfolio-fn2g.onrender.com/send', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, email, message })
@@ -120,6 +120,7 @@ const translations = {
         contact: 'Contact Me',
         linkedin: 'My LinkedIn Profile',
         resume: 'My Resume',
+        github: 'GitHub',
 
         Bachelor: 'Bachelor of Science — Management Information Systems',
         Graduate: 'Graduated 2025',
@@ -165,6 +166,7 @@ const translations = {
         contact: 'Contáctame',
         linkedin: 'Mi Perfil de LinkedIn',
         resume: 'Mi Currículum',
+        github: 'GitHub',
 
         Bachelor: 'Licenciatura en Ciencias — Sistemas de Información Gerencial',
         Graduate: 'Graduado 2025',

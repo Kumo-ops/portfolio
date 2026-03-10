@@ -4,6 +4,8 @@ from email.mime import text
 from flask import Flask, request, jsonify
 from flask_mail import Mail, Message
 from flask_cors import CORS 
+from flask_limiter import Limiter 
+from flask_limiter.util import get_remote_address
 from dotenv import load_dotenv
 import os   
 
@@ -11,6 +13,11 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
+limiter = Limiter(
+    get_remote_address, 
+    app=app,
+    default_limits=["200 per day", "50 per hour"]
+)
 
 # Configure Flask-Mail
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
@@ -60,6 +67,7 @@ def is_malicious(text):
     return False, None
 
 @app.route('/send', methods=['POST'])
+@limiter.limit("5 per hour")  # Limit to 5 requests per hour per IP
 def send_email():
     data = request.json
     name = data.get('name')
