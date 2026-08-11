@@ -115,7 +115,7 @@ const translations = {
         name: 'Anthony Rodriguez',
         tagline: 'Bridging the gap between business and technology!',
         'Technical Skills': 'Technical Skills 💻⚙️',
-        'Business Skills': 'Business & Analytical Skills 💼🤝🏽',
+        'Business Skills': 'Systems, Infrastructure,& Analytical skills 💼',
         Education: 'Education 🎓',
         Projects: 'Projects 📋📊',
         contact: 'Contact Me',
@@ -123,10 +123,12 @@ const translations = {
         resume: 'My Resume',
         github: 'GitHub',
 
+        Master: 'Master of Science — Applied Computer Science',
+        GraduateProgress: 'In progress',
         Bachelor: 'Bachelor of Science — Management Information Systems',
         Graduate: 'Graduated 2025',
         Associate: 'Associate of Science — Computer Science',
-        'In Progress': 'In Progress (expected 2026)',
+        GraduateAssociates: 'Graduated 2026',
         study: 'Currently Studying',
 
         proj4title: 'Spookathon - Iota Xi Honor Society: Orange Coast College',
@@ -150,7 +152,16 @@ const translations = {
         proj1b: 'Designed and implemented the front-end to create a responsive and user-friendly interface.',
 
         about: 'About Me',
-        aboutText: 'My name is Anthony Rodriguez, a 2025 graduate of California State University, Long Beach with a B.S. in Management Information Systems and a current Computer Science student at Orange Coast College. I’m passionate about the intersection of technology, systems, and problem-solving, with experience in Python, C++, and full-stack development through academic and hackathon projects. My interests lie in cybersecurity and DevOps, where secure infrastructure, automation, and system reliability intersect. I’m currently preparing for the CompTIA Security+ to strengthen my foundation in security principles and defensive practices. Outside of technology, I enjoy baseball, gaming, and spending time outdoors with my five-year-old Husky.',
+        aboutText: `My name is Anthony Rodriguez, a 2025 graduate of California State University,
+        Long Beach with a B.S. in Management Information Systems. I’m currently pursuing an M.S.
+        in Applied Computer Science at California State University, Fullerton, where I’m continuing to
+        strengthen my foundation in software development, computer science, and systems. My experience
+        includes Python, C++, SQL, JavaScript, and web development, along with hands-on work in data center
+        operations, hardware deployment, cabling, system imaging, and technical troubleshooting. Through
+        coursework, competitions, and hackathons, I’ve also worked with technologies such as FastAPI, Git,
+        AWS, Kubernetes, and cybersecurity tools. I’m especially interested in software engineering, cybersecurity,
+        and DevOps, where programming, automation, security, and reliable systems come together. Outside of technology,
+        I enjoy baseball, gaming, working out, running, and spending time outdoors with my Husky`,
 
         submit: 'Submit',     
         placeholder: 'Type your message here...'
@@ -161,7 +172,7 @@ const translations = {
         name: 'Anthony Rodriguez',
         tagline: '¡Conectando los negocios con la tecnología!',
         'Technical Skills': 'Habilidades Técnicas 💻⚙️',
-        'Business Skills': 'Habilidades de Negocios y Análisis 💼🤝🏽',
+        'Business Skills': 'Habilidades de Sistemas, Infraestructura y Análisis 💼',
         Education: 'Educación 🎓',
         Projects: 'Proyectos 📋📊',
         contact: 'Contáctame',
@@ -169,10 +180,14 @@ const translations = {
         resume: 'Mi Currículum',
         github: 'GitHub',
 
+        //EDUCATION MASTER INSERT
+        Master: 'Maestría en Ciencias — Ciencias Aplicadas de la Computación',
+        GraduateProgress: 'En progresso',
+
         Bachelor: 'Licenciatura en Ciencias — Sistemas de Información Gerencial',
         Graduate: 'Graduado 2025',
         Associate: 'Asociado en Ciencias — Ciencias de la Computación',
-        'In Progress': 'En Progreso (esperado 2026)',
+        'GraduateAssociates': 'Graduado 2026',
         study: 'Actualmente Estudiando',
 
         proj4title: 'Spookathon - Sociedad de Honor Iota Xi: Orange Coast College',
@@ -196,8 +211,20 @@ const translations = {
         proj1b: 'Diseñé e implementé el frontend para crear una interfaz responsiva y fácil de usar.',
 
         about: 'Sobre Mí',
-        aboutText: 'Mi nombre es Anthony Rodriguez, graduado en 2025 de la Universidad Estatal de California en Long Beach con una licenciatura en Sistemas de Información Gerencial y actualmente estudiante de Ciencias de la Computación en Orange Coast College. Me apasiona la intersección entre la tecnología, los sistemas y la resolución de problemas, con experiencia en Python, C++ y desarrollo full-stack a través de proyectos académicos y hackatones. Mis intereses se centran en la ciberseguridad y DevOps, donde la infraestructura segura, la automatización y la confiabilidad de los sistemas se intersectan. Actualmente me estoy preparando para la certificación CompTIA Security+ para fortalecer mi base en principios de seguridad y prácticas de defensa. Fuera de la tecnología, disfruto el béisbol, los videojuegos y pasar tiempo al aire libre con mi Husky.',
-
+        aboutText: `Mi nombre es Anthony Rodriguez y soy graduado
+        de California State University, Long Beach, donde obtuve en
+        2025 una Licenciatura en Administración de Empresas con especialización en
+        Sistemas de Información Gerencial. Actualmente estoy cursando una Maestría en
+        Ciencias de la Computación Aplicada en California State University, Fullerton,
+        donde continúo fortaleciendo mis conocimientos en desarrollo de software, ciencias de la computación y sistemas.
+        Mi experiencia incluye Python, C++, SQL, JavaScript y desarrollo web, además de experiencia práctica en operaciones
+        de centros de datos, instalación de hardware, cableado, creación de imágenes de sistemas y resolución de problemas
+        técnicos. A través de cursos, competencias y hackathons, también he trabajado con tecnologías como FastAPI, Git,
+        AWS, Kubernetes y herramientas de ciberseguridad.
+        Me interesan especialmente la ingeniería de software, la ciberseguridad y DevOps,
+        áreas en las que convergen la programación, la automatización, la seguridad y la confiabilidad de los sistemas.
+        Fuera del ámbito tecnológico, disfruto del béisbol, los videojuegos, hacer ejercicio, correr y pasar tiempo al aire
+        libre con mi Husky.`,
         submit: 'Enviar',     
         placeholder: 'Escribe tu mensaje aquí...'
     }
