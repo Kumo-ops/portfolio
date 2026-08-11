@@ -7,7 +7,8 @@ toggle.addEventListener('click', () => {
     
     if(document.body.classList.contains('light-mode')) {
         toggle.textContent = '🌙';
-    } else {
+    } 
+    else {
         toggle.textContent = '☀️';
     }
 });
