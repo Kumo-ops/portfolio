@@ -3,7 +3,7 @@
 A personal portfolio website built from scratch using HTML, CSS, JavaScript, and Python (Flask).
 Designed with a cyber/dark theme to showcase my technical and business skills.
 
-## 🌐 Live Site
+##  Live Site
 [https://kumo-ops.github.io/portfolio](https://kumo-ops.github.io/portfolio)
 
 ## Tools used
@@ -15,20 +15,6 @@ Designed with a cyber/dark theme to showcase my technical and business skills.
 - Flask-Limiter
 - Flask-CORS
 
-## 📁 Project Structure
-```
-Portfolio/
-├── index.html
-├── style.css
-├── script.js
-├── server.py
-├── devicon.min.css
-├── .gitignore
-├── README.md
-├── Anthony_Rodriguez.pdf
-└── Images/
-```
-
-## Contact
+## 📬 Contact
 - LinkedIn: [linkedin.com/in/techrodanthony](https://www.linkedin.com/in/techrodanthony/)
 - GitHub: [github.com/Kumo-ops](https://github.com/Kumo-ops)
