@@ -123,13 +123,11 @@ const translations = {
         resume: 'My Resume',
         github: 'GitHub',
 
-        Master: 'Master of Science — Applied Computer Science',
-        GraduateProgress: 'In progress',
         Bachelor: 'Bachelor of Science — Management Information Systems',
         Graduate: 'Graduated 2025',
-        Associate: 'Associate of Science — Computer Science',
-        GraduateAssociates: 'Graduated 2026',
-        study: 'Currently Studying',
+        Associate: 'Post-Baccalaureate Coursework — Computer Science',
+        GraduateAssociates: 'Present',
+        // study: 'Present',
 
         proj4title: 'Spookathon - Iota Xi Honor Society: Orange Coast College',
         proj4role: 'Full Stack Developer - Python, JavaScript, HTML, CSS',
@@ -152,16 +150,21 @@ const translations = {
         proj1b: 'Designed and implemented the front-end to create a responsive and user-friendly interface.',
 
         about: 'About Me',
-        aboutText: `My name is Anthony Rodriguez, a 2025 graduate of California State University,
-        Long Beach with a B.S. in Management Information Systems. I’m currently pursuing an M.S.
-        in Applied Computer Science at California State University, Fullerton, where I’m continuing to
-        strengthen my foundation in software development, computer science, and systems. My experience
-        includes Python, C++, SQL, JavaScript, and web development, along with hands-on work in data center
-        operations, hardware deployment, cabling, system imaging, and technical troubleshooting. Through
-        coursework, competitions, and hackathons, I’ve also worked with technologies such as FastAPI, Git,
-        AWS, Kubernetes, and cybersecurity tools. I’m especially interested in software engineering, cybersecurity,
-        and DevOps, where programming, automation, security, and reliable systems come together. Outside of technology,
-        I enjoy baseball, gaming, working out, running, and spending time outdoors with my Husky`,
+        aboutText: `    My name is Anthony Rodriguez, a 2025 graduate of California State University, Long Beach with a B.S. in 
+        Management Information Systems. I’m continuing to build my computer science foundation through post-baccalaureate coursework, 
+        with studies in Python, C++, discrete structures, data structures, computer architecture, and systems programming.
+        My experience includes Python, C++, SQL, JavaScript, and web development, along with hands-on technical experience in
+        data center operations, hardware deployment, rack and stack, cabling, system imaging, and troubleshooting. Through coursework, 
+        competitions, and hackathons, I’ve also gained exposure to technologies including FastAPI, Git, AWS, Kubernetes, Linux, and 
+        cybersecurity tools.
+
+        I’m especially interested in software engineering, cybersecurity, cloud/DevOps, and systems, where 
+        programming and an understanding of the underlying infrastructure come together. I’m currently focused on expanding 
+        my knowledge of computer systems while pursuing full-time opportunities where I can continue developing my technical 
+        skills and gaining industry experience.
+
+        Outside of technology, I enjoy baseball, gaming, working out, running, and spending time outdoors with my Husky.
+`,
 
         submit: 'Submit',     
         placeholder: 'Type your message here...'
@@ -179,15 +182,11 @@ const translations = {
         linkedin: 'Mi Perfil de LinkedIn',
         resume: 'Mi Currículum',
         github: 'GitHub',
-
-        //EDUCATION MASTER INSERT
-        Master: 'Maestría en Ciencias — Ciencias Aplicadas de la Computación',
-        GraduateProgress: 'En progresso',
-
+        
         Bachelor: 'Licenciatura en Ciencias — Sistemas de Información Gerencial',
         Graduate: 'Graduado 2025',
-        Associate: 'Asociado en Ciencias — Ciencias de la Computación',
-        'GraduateAssociates': 'Graduado 2026',
+        Associate: ' Posterior a la licenciatura — Informatica',
+        'GraduateAssociates': 'Presente',
         study: 'Actualmente Estudiando',
 
         proj4title: 'Spookathon - Sociedad de Honor Iota Xi: Orange Coast College',
@@ -211,20 +210,19 @@ const translations = {
         proj1b: 'Diseñé e implementé el frontend para crear una interfaz responsiva y fácil de usar.',
 
         about: 'Sobre Mí',
-        aboutText: `Mi nombre es Anthony Rodriguez y soy graduado
-        de California State University, Long Beach, donde obtuve en
-        2025 una Licenciatura en Administración de Empresas con especialización en
-        Sistemas de Información Gerencial. Actualmente estoy cursando una Maestría en
-        Ciencias de la Computación Aplicada en California State University, Fullerton,
-        donde continúo fortaleciendo mis conocimientos en desarrollo de software, ciencias de la computación y sistemas.
-        Mi experiencia incluye Python, C++, SQL, JavaScript y desarrollo web, además de experiencia práctica en operaciones
-        de centros de datos, instalación de hardware, cableado, creación de imágenes de sistemas y resolución de problemas
-        técnicos. A través de cursos, competencias y hackathons, también he trabajado con tecnologías como FastAPI, Git,
-        AWS, Kubernetes y herramientas de ciberseguridad.
-        Me interesan especialmente la ingeniería de software, la ciberseguridad y DevOps,
-        áreas en las que convergen la programación, la automatización, la seguridad y la confiabilidad de los sistemas.
-        Fuera del ámbito tecnológico, disfruto del béisbol, los videojuegos, hacer ejercicio, correr y pasar tiempo al aire
-        libre con mi Husky.`,
+        aboutText: `Me llamo Anthony Rodriguez y me gradué en 2025 de 
+        California State University, Long Beach con una licenciatura en Sistemas de Información Gerencial (Management Information Systems). Actualmente continúo fortaleciendo mi formación en ciencias de la computación mediante cursos posteriores a mi licenciatura, con estudios en Python, C++, estructuras discretas, estructuras de datos, arquitectura de computadoras y programación de sistemas.
+
+        Mi experiencia incluye Python, C++, SQL, JavaScript y desarrollo web, además de experiencia técnica práctica en 
+        operaciones de centros de datos, instalación de hardware, montaje de servidores en racks, cableado, configuración de 
+        imágenes de sistemas y resolución de problemas técnicos. A través de cursos, competencias y hackathons, también he adquirido 
+        experiencia con tecnologías como FastAPI, Git, AWS, Kubernetes, Linux y herramientas de ciberseguridad.
+        Me interesan especialmente la ingeniería de software, la ciberseguridad, cloud/DevOps y los sistemas, áreas donde la programación y 
+        el conocimiento de la infraestructura tecnológica trabajan en conjunto. Actualmente, estoy enfocado en ampliar mis conocimientos sobre 
+        sistemas informáticos mientras busco oportunidades de tiempo completo que me permitan seguir desarrollando mis habilidades técnicas y 
+        adquirir más experiencia profesional.
+        Fuera de la tecnología, disfruto del béisbol, los videojuegos, hacer ejercicio, correr y pasar tiempo al aire libre con mi Husky.`,
+
         submit: 'Enviar',     
         placeholder: 'Escribe tu mensaje aquí...'
     }

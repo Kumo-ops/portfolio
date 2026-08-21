@@ -15,6 +15,6 @@ Designed with a cyber/dark theme to showcase my technical and business skills.
 - Flask-Limiter
 - Flask-CORS
 
-## 📬 Contact
+##  Contact
 - LinkedIn: [linkedin.com/in/techrodanthony](https://www.linkedin.com/in/techrodanthony/)
 - GitHub: [github.com/Kumo-ops](https://github.com/Kumo-ops)
